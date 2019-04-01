@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anghami", "Anghami\Anghami.csproj", "{055EDE56-F0E7-43B2-B0A7-426F8B0B4A6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusniessLayer", "Anghami\BusniessLayer.csproj", "{055EDE56-F0E7-43B2-B0A7-426F8B0B4A6E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{126801EB-8C87-434C-B67F-A85807C6F743} = {126801EB-8C87-434C-B67F-A85807C6F743}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{126801EB-8C87-434C-B67F-A85807C6F743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewLayer", "ViewLayer\ViewLayer.csproj", "{682E9277-D382-4F1F-9C31-EC7F42340E21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,14 @@ Global
 		{055EDE56-F0E7-43B2-B0A7-426F8B0B4A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{055EDE56-F0E7-43B2-B0A7-426F8B0B4A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{055EDE56-F0E7-43B2-B0A7-426F8B0B4A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{126801EB-8C87-434C-B67F-A85807C6F743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126801EB-8C87-434C-B67F-A85807C6F743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126801EB-8C87-434C-B67F-A85807C6F743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126801EB-8C87-434C-B67F-A85807C6F743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682E9277-D382-4F1F-9C31-EC7F42340E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682E9277-D382-4F1F-9C31-EC7F42340E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682E9277-D382-4F1F-9C31-EC7F42340E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682E9277-D382-4F1F-9C31-EC7F42340E21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
